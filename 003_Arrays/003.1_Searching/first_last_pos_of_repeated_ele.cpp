@@ -69,5 +69,5 @@ int main()
     cout << "first ocuurance found index:" << ans1 << endl;
 
     int ans2 = lastOcuurance(a, 7, key);
-    cout << "first ocuurance found index:" << ans2 << endl;
+    cout << "last ocuurance found index:" << ans2 << endl;
 }

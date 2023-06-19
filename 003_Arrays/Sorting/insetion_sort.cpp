@@ -23,7 +23,3 @@ int main()
         cout<<"after inssertion sort: "<<arr[i]<<endl;
     }
 }
-
-
-// geetha gururaja
-// shyam shashank g how are you ??" I'm Shyam"
