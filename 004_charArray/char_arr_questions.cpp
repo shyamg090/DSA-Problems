@@ -1,6 +1,15 @@
 #include<iostream>
 using namespace std;
 
+int convert(char ch){
+    if(ch<='A' && ch>=''Z){
+        return ch;
+    }else{
+        char temp= ch - 'a'+ 'A';
+        return temp;
+    }
+}
+
 bool checkPalindrome(char str[], int n){
     int s=0;
     int e=n-1;
@@ -46,6 +55,8 @@ int main(){
 
     reverseString(name,length); //calling and it updates original array as original is passed
     cout<<"reversed string: "<< name<<endl;
+
+    cout<<"uppercase: "<<convert(name);
 
     if(checkPalindrome(name,length)){
         cout<<"is palindrome :"<<name;
