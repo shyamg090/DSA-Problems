@@ -11,7 +11,7 @@ int main()
   while(n!=0){
     int bit=n & 1;
     ans = (bit * pow(10,i) ) + ans;
-    n=n>>1;
+    n=n>>1; //refers to divide by 2 and stores remainder
     i++;
   } 
   cout<<ans;
