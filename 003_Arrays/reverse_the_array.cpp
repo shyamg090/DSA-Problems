@@ -12,7 +12,7 @@ void printarray(int a[], int n){
 void reverse(int a[],int n){
     int start=0, end=n-1;
 
-    while(start<=end){
+    while(start <= end){
         swap(a[start],a[end]);
         start++;
         end--;

@@ -2,6 +2,10 @@
 
 This repository contains a collection of Data Structures and Algorithms (DSA) problems solved using the C++ programming language. These problems are intended for daily practice to improve your understanding of DSA concepts and strengthen your problem-solving skills.
 
+## 100daysofcoding
+
+```Day 1 : C++ basics revision + ```
+
 ## Table of Contents
 
 1. [Introduction](#introduction)
@@ -76,7 +80,3 @@ If you are new to DSA or want to learn more, here are some helpful resources:
 ## License
 
 The code in this repository is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the code for personal and commercial purposes. Attribution is not required but appreciated.
-
-## 100daysofcoding
-
-```Day 1: Revising C++ and some patterns```
