@@ -4,7 +4,7 @@ This repository contains a collection of Data Structures and Algorithms (DSA) pr
 
 ## 100daysofcoding
 
-```Day 1 : C++ basics revision + ```
+```Day 1 : C++ basics and Arrays ```
 
 ## Table of Contents
 
