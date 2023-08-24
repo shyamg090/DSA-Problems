@@ -5,6 +5,10 @@ This repository contains a collection of Data Structures and Algorithms (DSA) pr
 ## 100daysofcoding
 
 ```Day 1 : C++ basics and Arrays ```
+```Day 2 : Maths in DSA (simple LCM, GCD, Factorial)```
+```Day 3 : pointers```
+
+
 
 ## Table of Contents
 
