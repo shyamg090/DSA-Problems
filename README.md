@@ -6,7 +6,9 @@ This repository contains a collection of Data Structures and Algorithms (DSA) pr
 
 ```Day 1 : C++ basics and Arrays ```
 ```Day 2 : Maths in DSA (simple LCM, GCD, Factorial)```
-```Day 3 : pointers```
+```Day 3 : pointers(Introduction)```
+```Day 4 : pointers completed(more concepts w.r.t arrays and internal opertaions of pointers)```
+
 
 
 
