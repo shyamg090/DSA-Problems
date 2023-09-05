@@ -18,7 +18,7 @@ int main(){
     // sort(brr.begin,brr.end);
     int i=0,j=i;
     vector<int> ans;
-    while(i<n and j<n){
+    while(i<n && j<n){
         if(arr[i]==brr[j]){
             ans.push_back(i);
             i++;
