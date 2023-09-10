@@ -8,6 +8,8 @@ int main(){
     // bubble sort arrange the largest to right place by swapping
     for(int i=0; i<n ; i++){
         for(int j=0; j<n-i-1; j++){
+            // 0index --> n-1 = 5-1 = 4th index[0 to 4]whole array
+            //1index --> n-1-1= 5-1-1 = 3rd index[1 to 3]
             // n-i-1 bcz n-i-1 gives the last second position of array 
             // example if after some rounds 6,7,2,4,9 is sorted array
             // then n-i-1 gives index=3 value=4 bcz 9 is sorteed and is in right position

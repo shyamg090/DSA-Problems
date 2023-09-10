@@ -11,12 +11,12 @@ int main()
         for(; j>=0 ; j--){
             // to compare the i with the prev values j starts from j=i-1 to j>=0 hance j--
             if(temp < arr[j]){
-                arr[j+1]=arr[j]; //right shift the j
+                arr[j+1] = arr[j]; //right shift the j
             }else{
                 break; //else break and come out of for loop dont go further behind
             }
         }
-        arr[j+1]=temp; //copy and paste in this location
+        arr[j+1] = temp; //copy and paste in this location
     }
 
     for(int i=0; i<n-1; i++){

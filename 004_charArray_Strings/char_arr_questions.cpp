@@ -2,10 +2,10 @@
 using namespace std;
 
 int convert(char ch){
-    if(ch<='A' && ch>=''Z){
+    if(ch<='A' && ch>='Z'){
         return ch;
     }else{
-        char temp= ch - 'a'+ 'A';
+        char temp = ch - 'a'+ 'A';
         return temp;
     }
 }

@@ -13,7 +13,7 @@ class Solution {
         if((ch>='a' && ch<='z') || (ch>='0' && ch<='9')){
             return ch;
         }else{
-           char temp = ch-'A'+'a';
+           char temp = ch -'A'+'a';
             return temp;
         }
     }

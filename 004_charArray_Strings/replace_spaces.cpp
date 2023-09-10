@@ -15,16 +15,3 @@ int main(){
     }
     cout<<temp;
 }
-
-// same array
-// int main(){
-//     string str="my name is shyam";
-//     // string temp="";
-//     for(int i=0; i<str.length(); i++){
-//         if(str[i]==' '){
-            
-//         }
-        
-//     }
-//     cout<<str;
-// }
