@@ -85,33 +85,37 @@ void insertAtPosition(Node *tail, Node *head, int position, int d)
     insertMid->prev = temp; // from left to insertmid
 }
 
-// void deleteAtPosition(int position, Node *&head)
-// {
-//     if (position == 1)
-//     {
-//         Node *temp = head;
-//         head = head->next;
-//         temp->next = NULL;
-//         delete temp;
-//     }
-//     else
-//     {
-//         Node *curr = head;
-//         Node *prev = NULL;
-//         int count = 1;
+void deleteAtPosition(int position, Node *&head)
+{
+    if (position == 1)
+    {
+        Node *temp = head;
+        temp->next->prev = NULL;
+        head = temp->next;
+        // head->prev = NULL;
+        temp->next = NULL;
+        delete temp;
+    }
+    else
+    {
+        Node *curr = head;
+        Node *prev = NULL;
+        int count = 1;
 
-//         while (count < position)
-//         {
-//             prev = curr;
-//             curr = curr->next;
-//             count++;
-//         }
+        while (count < position)
+        {
+            prev = curr;
+            curr = curr->next;
+            count++;
+        }
 
-//         prev->next = curr->next;
-//         curr->next = NULL;
-//         delete curr;
-//     }
-// }
+        curr->prev = NULL;
+        prev->next = curr->next;
+        curr->next->prev = prev->next;
+        curr->next = NULL;
+        delete curr;
+    }
+}
 
 // to print the values of linked List
 void printLL(Node *&head)
@@ -158,14 +162,16 @@ int main()
     printLL(head);
 
     // -----------------------------------------------------------------------------------
-    // int position, data;
-    // // cin >> position >> data;
-    // // insertAtPosition(tail, head, position, data);
-    // // printLL(head);
-    // cout << endl;
-    // cin >> position;
-    // deleteAtPosition(position, head);
+    int position, data;
+    // cin >> position >> data;
+    // insertAtPosition(tail, head, position, data);
     // printLL(head);
+    // cout << endl;
+
+
+    cin >> position;
+    deleteAtPosition(position, head);
+    printLL(head);
 
     return 0;
 }
