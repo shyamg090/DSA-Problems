@@ -18,7 +18,6 @@ class human{
 
 class male : public human
 {
-
     public:
         string color;
 
